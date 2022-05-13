@@ -1,0 +1,116 @@
+:root {
+    --background:#F1F1F1;
+    --main-color:#4589EF;
+    --white:#FFFFFF;
+    --black:#262626;
+}
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.service {
+    background-color: var(--background);
+    width: 100%;
+    height: 610px;
+    font-family: 'proxima-nova', sans-serif;
+}
+.service h2 {
+    color:var(--black);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 14.5px;
+    font-size: 35px;
+}
+.service h2 span {
+    color:var(--main-color);
+}
+.service .ligne {
+    width: 7%;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:#CFCFCF;
+    border:inherit;
+    height:2px;
+}
+.service .card {
+    display:flex;
+    padding-top:53px;
+    align-items: center;
+    justify-content: center;
+}
+.service .cardService-icon {
+    width: 56px;
+    height: 56px;
+    border-radius:100px;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.service .cardService-icon img {
+    width: 30px;
+    height: 30px;
+}
+.cardService{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 10px;
+    width: 260px;
+    height: 330px;
+}
+.service .cardService-text h4 {
+    margin-top: 38px;
+    margin-bottom: 24px;
+    color:var(--black);
+    font-weight: bold;
+}
+.service .cardService-text p {
+    color:#737373;
+    height: 130px;
+    line-height: 26px;
+}
+.service .cardService-text .button {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    border:0;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+.service .cardService-text .button:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--main-color);
+    border-radius: 10rem;
+    z-index: -2;
+}
+.service .cardService-text .button:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #1D77FF;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+}
+.service .cardService-text .button:hover {
+    color: #fff;
+}
+.service .cardService-text .button:hover:before {
+    width: 100%;
+  }

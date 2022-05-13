@@ -1,0 +1,109 @@
+#HowItWorks {
+    width: 100%;
+    height: 580px;
+    background-color: #F1F1F1;
+}
+#HowItWorks h1 {
+    font-size: 40px;
+    color:var(--main-color);
+    padding-top:65px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#HowItWorks .HIW {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+}
+#HowItWorks .container {
+    width: 100%;
+  }
+  
+#HowItWorks .progressbar {
+    counter-reset: step;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+#HowItWorks .progressbar li {
+    height: 197px;
+    list-style: none;
+    display: inline-block;
+    width: 500px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 20px;
+  }
+#HowItWorks .progressbar li:before {
+    color:var(--white);
+    content: counter(step);
+    counter-increment: step;
+    width: 50px;
+    height: 50px;
+    line-height : 30px;
+    border-radius: 100%;
+    display: flex;
+    font-size: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 10px auto;
+    background-color: var(--main-color);
+  }
+#HowItWorks .progressbar li:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: var(--main-color);
+    top: 25px;
+    left: -50%;
+  }
+#HowItWorks .progressbar li:first-child:after {
+    content: none;
+}
+#HowItWorks .progressbar li h4 {
+    margin-top: 35px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+#HowItWorks .progressbar li p {
+    color:#737373;
+    line-height: 26px;
+}
+#HowItWorks button {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#HowItWorks button {
+    color:var(--main-color);
+    text-align: center;
+    padding: 17px 40px;
+    border-radius: 41px;
+    border: 0;
+    background-color: var(--white);
+    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
+    font-size: 20px;
+    transition: all .5s ease;
+}  
+#HowItWorks button:hover {
+    background-color: var(--main-color);
+    color: hsl(0, 0%, 100%);
+    box-shadow: var(--main-color) 0px 7px 29px 0px;
+   }
+   
+#HowItWorks button:active {
+    letter-spacing: 3px;
+    background-color: var(--main-color);
+    color: hsl(0, 0%, 100%);
+    box-shadow: var(--main-color) 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+   }
+
