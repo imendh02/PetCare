@@ -8,24 +8,60 @@
     width: 100%;
     height: 100vh;
 }
-#ServiceCover .ServiceHero{
+#DWCover {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("../../images/DogWalking.png");
+    background-position: center center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+#TrainingCover {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("../../images/Training.png");
+    background-position: center center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+#VeterinaryCover {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("../../images/Veterinary.png");
+    background-position: center center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+#PDCCover {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("../../images/PDC.png");
+    background-position: center center;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+#TrainingCover .ServiceHero,#DWCover .ServiceHero,#ServiceCover .ServiceHero,#VeterinaryCover .ServiceHero,#PDCCover .ServiceHero{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
 }
-#ServiceCover .ServiceHero h1 {
+#TrainingCover .ServiceHero h1,#DWCover .ServiceHero h1,#ServiceCover .ServiceHero h1 ,#VeterinaryCover .ServiceHero h1,#PDCCover .ServiceHero h1{
     font-size:70px;
     font-family: 'IBM Plex Sans', sans-serif;
     color:var(--white);
 }
-#ServiceCover .ServiceHero p {
+#TrainingCover .ServiceHero p,#DWCover .ServiceHero p,#ServiceCover .ServiceHero p ,#VeterinaryCover .ServiceHero p,#PDCCover .ServiceHero p{
     color:var(--white);
     margin-top: 20px;
     margin-bottom: 50px;
 }
-#ServiceCover .Service-btn {
+#TrainingCover .ServiceHero .Service-btn,#DWCover .ServiceHero .Service-btn,#ServiceCover .Service-btn ,#VeterinaryCover .ServiceHero .Service-btn,#PDCCover .ServiceHero .Service-btn{
     background-color: var(--main-color);
     padding: 14px 40px;
     color: #fff;
@@ -37,17 +73,17 @@
     font-size: 16px;
    }
    
-#ServiceCover .Service-btn span:last-child {
+#TrainingCover .Service-btn span:last-child, #DWCover .Service-btn span:last-child,#ServiceCover .Service-btn span:last-child ,#VeterinaryCover .Service-btn span:last-child,#PDCCover .Service-btn span:last-child{
     display: none;
    }
    
-#ServiceCover .Service-btn:hover {
+#TrainingCover .Service-btn:hover,#DWCover .Service-btn:hover,#ServiceCover .Service-btn:hover,#VeterinaryCover .Service-btn:hover,#PDCCover .Service-btn:hover{
     transition: .4s;
     border: 2px dashed var(--main-color);
     background-color: #fff;
     color: var(--main-color);
    }
    
-#ServiceCover .Service-btn:active {
+#TrainingCover .Service-btn:active,#DWCover .Service-btn:active , #ServiceCover .Service-btn:active ,#VeterinaryCover .Service-btn:active,#PDCCover .Service-btn:active{
     background-color: #87dbd0;
-   }
+}

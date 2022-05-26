@@ -1,0 +1,44 @@
+#HowServiceWorks {
+    background-color: #F1F1F1;
+    width: 100%;
+}
+#HowServiceWorks h1 {
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: center;
+}
+#HowServiceWorks .card-HowServiceWorks {
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom: 25px;
+}
+#HowServiceWorks .card-HowServiceWorks .cardHSW  {
+    display: flex;
+    flex-direction: column;
+    width: 366px;
+    height: 342px;
+}
+#HowServiceWorks .card-HowServiceWorks .cardHSW .cardHSW-icon{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#HowServiceWorks .card-HowServiceWorks .cardHSW .cardHSW-icon img{
+    width: 123px;
+    height: 123px;
+}
+#HowServiceWorks .card-HowServiceWorks .cardHSW h4 {
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#HowServiceWorks .card-HowServiceWorks .cardHSW  p {
+    color:#737373;
+    font-size: 20px;
+}

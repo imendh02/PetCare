@@ -11,7 +11,7 @@ const NavBar = () => {
       <li className="logo2"><Link to="/"><img src={logo} alt='logo'/></Link></li>
       <li><a href="/">Our Services</a></li>
       <li><a href="/">Become a Pet Sitter</a></li>
-      <li><a href="/">Request Service</a></li>
+      <li><a href="/StepContext">Request Service</a></li>
     </ul>
     </div>
     <div  className="NavbarBtn">

@@ -1,0 +1,85 @@
+#Benefits-img {
+    background-image: linear-gradient(90deg,rgba(255, 255, 255, 0.941),rgba(255, 255, 255, 0)), url("../../images/BoardingBen.png");
+    background-color: #cccccc;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 50px 80px 50px 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+#TrainingBenefits {
+    background-image: linear-gradient(90deg,rgba(255, 255, 255, 0.941),rgba(255, 255, 255, 0)), url("../../images/TrainingBen.png");
+    background-color: #cccccc;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 50px 80px 50px 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+#DWBenefits {
+  background-image: linear-gradient(90deg,rgba(255, 255, 255, 0.941),rgba(255, 255, 255, 0)), url("../../images/DogWalkingBen.png");
+  background-color: #cccccc;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 50px 80px 50px 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;   
+}
+#VeterinaryBenefits {
+  background-image: linear-gradient(90deg,rgba(255, 255, 255, 0.941),rgba(255, 255, 255, 0)), url("../../images/VeterinaryBen.png");
+  background-color: #cccccc;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 50px 80px 50px 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#PDCBenefits {
+  background-image: linear-gradient(90deg,rgba(255, 255, 255, 0.941),rgba(255, 255, 255, 0)), url("../../images/PDCben.png");
+  background-color: #cccccc;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 50px 80px 50px 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#TrainingBenefits h1,#DWBenefits h1,#Benefits-img h1,#VeterinaryBenefits h1,#PDCBenefits h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 50px;
+}
+#TrainingBenefits .Benefits-text , #DWBenefits .Benefits-text , #Benefits-img .Benefits-text ,#VeterinaryBenefits .Benefits-text,#PDCBenefits .Benefits-text{
+    display: flex;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+}
+#TrainingBenefits .row , #DWBenefits .row, #Benefits-img .row,#VeterinaryBenefits .row,#PDCBenefits .row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    
+  }
+#TrainingBenefits .row img , #DWBenefits .row img , #Benefits-img .row img,#VeterinaryBenefits .row img,#PDCBenefits .row img{
+    margin-right: 20px;
+    width: 30px;
+    height: 30px;
+  }

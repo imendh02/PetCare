@@ -34,7 +34,7 @@ const Service = () => {
         <div className="cardService-text">
             <h4>Training</h4>
             <p>Train your pet for better health and better experiment .</p>
-            <button className="button">Read More</button>
+            <Link to="/Training"><button className="button">Read More</button></Link>
         </div>
     </div>
     <div className="cardService">
@@ -42,7 +42,7 @@ const Service = () => {
         <div className="cardService-text">
             <h4>Online Veterinary</h4>
             <p>Your pet feels comfortable and safe throughout the experience.</p>
-            <button className="button">Read More</button>
+            <Link to="/Veterinary"><button className="button">Read More</button></Link>
         </div>
     </div>
     <div className="cardService">
@@ -50,7 +50,7 @@ const Service = () => {
         <div className="cardService-text">
             <h4>Pet Day Care</h4>
             <p>Your Pet spends the day at your sitter’s home. Drop them off in the morning and pick up a happy pup in the evening.</p>
-            <button className="button">Read More</button>
+            <Link to="/PetDayCare"><button className="button">Read More</button></Link>
         </div>
     </div>
     </div>
